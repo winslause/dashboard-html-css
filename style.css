@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+
+}
+body{
+    background: rgb(226, 226, 226);
+
+}
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 90px;
+    background: white;
+    overflow: hidden;
+    transition: 1s;
+}
+nav:hover{
+    width: 280px;
+    transition: 1s;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+    padding-bottom: 3rem;
+    
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+        
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    width: 280px;
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+    display: table;
+    padding: 10px;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+.container{
+    display: flex;
+}
+nav.fas{
+    position: relative;
+    width: 10px;
+    height: 40px;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+a:hover{
+    background: #eee;
+
+}
+a:hover i{
+    color: black;
+    transition: 0.5s;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.main{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+.main-top{
+    display: flex;
+    width: 100%;
+}
+.main-top i{
+    position: fixed;
+    right: 0;
+    margin: 10px 30px;
+    color: rgb(110, 109, 109);
+    cursor: pointer;
+}
+.main-body{
+    display: flex;
+}
+.main-content{
+    position: relative;
+    width: 75%;
+
+}
+
+.cardbox{
+    width: 95%;
+    height: 180px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    background: #fff;
+    position: relative;
+    display: flex;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 1);
+}
+
+.cardbox img{
+     width: 200px;
+     border-radius: 10px;
+}
+.cardbox-detail{
+    margin-left: 1.3rem;
+
+}
+.cardbox-detail h2{
+    margin-bottom: 5px;
+}
+.cardbox-detail .views, .likes , .comments{
+    font-size: 0.7rem;
+    margin: 14px 15px 0 0;
+
+}
+.cardbox .user{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5px;
+
+}
+.cardbox .user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.cardbox .user span{
+    font-size: 0.8rem;
+}
+.sidebar{
+    width: 280px;
+    position: fixed;
+    right: 1.8rem;
+    margin-top: 1.5rem;
+}
+.popular-searches{
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 1);
+    
+}
+.popular_creators{
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 1);
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.cr{
+    margin-top: 15px;
+}
+.cr img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.popular-searches{
+    margin-top: 1.5rem;
+
+}
+.search{
+    margin-top: 1rem;
+}
+.his{
+    display: flex;
+    color: rgb(27, 27, 27);
+    margin-top: 0.4rem;
+    justify-content: space-between;
+
+}
+.his i{
+    cursor: pointer;
+    color: rgb(143, 138, 138);
+}
+.see-more{
+    margin-top: 1rem;
+    text-align: center;
+}
+.see-more button{
+    cursor: pointer;
+    background: none;
+}
